@@ -1,5 +1,4 @@
 ---
-type: posts
 title: Knowledge Graph 통합 RAG 구현
 date: 2025/6/2
 description: 전형적인 지식 그래프 기술의 개념과 RAG와 통합 됐을 때 역할에 대해서 알아보고자 합니다.
