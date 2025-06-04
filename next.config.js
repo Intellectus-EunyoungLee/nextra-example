@@ -6,8 +6,8 @@ const withNextra = require("nextra")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  basePath: process.env.NODE_ENV === "production" ? "nextra-example" : "",
+  output: "standalone",
+  basePath: process.env.NODE_ENV === "production" ? "/nextra-example" : "",
   assetPrefix: process.env.NODE_ENV === "production" ? "/nextra-example/" : "",
   images: {
     unoptimized: true,
