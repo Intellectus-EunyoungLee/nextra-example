@@ -6,12 +6,7 @@ const withNextra = require("nextra")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    unoptimized: true,
-  },
+  // any configs you need
 };
 
-let nextraConfig = withNextra(nextConfig);
-nextraConfig.assetPrefix = "./";
-
-module.exports = nextraConfig;
+module.exports = withNextra(nextConfig);
